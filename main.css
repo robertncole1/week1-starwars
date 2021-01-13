@@ -64,3 +64,25 @@ section {
   background-color: black;
   color: white;
 }
+
+.person-cont {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.person {
+  margin: 10px;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.person img {
+  height: 400px;
+}
+
+.person h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
