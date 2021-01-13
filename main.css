@@ -26,3 +26,41 @@ li a:hover {
   background-color: aqua;
   color: black;
 }
+
+/* article {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+/* .section-1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+} */
+
+section {
+  padding: 20px;
+  /* width: 200px; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  margin: 10px;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
